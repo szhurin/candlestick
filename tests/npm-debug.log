@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'test:cover' ]
+2 info using npm@3.3.12
+3 info using node@v5.4.1
+4 verbose run-script [ 'pretest:cover', 'test:cover', 'posttest:cover' ]
+5 info lifecycle candle_stick_collection@0.0.0~pretest:cover: candle_stick_collection@0.0.0
+6 silly lifecycle candle_stick_collection@0.0.0~pretest:cover: no script for pretest:cover, continuing
+7 info lifecycle candle_stick_collection@0.0.0~test:cover: candle_stick_collection@0.0.0
+8 verbose lifecycle candle_stick_collection@0.0.0~test:cover: unsafe-perm in lifecycle true
+9 verbose lifecycle candle_stick_collection@0.0.0~test:cover: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/home/sergey/_programming/node/candleStickCollection/node_modules/.bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/local/sbin:/usr/sbin:/home/sergey/.meteor:/home/sergey/.local/bin:/home/sergey/bin:/home/sergey/.meteor
+10 verbose lifecycle candle_stick_collection@0.0.0~test:cover: CWD: /home/sergey/_programming/node/candleStickCollection
+11 silly lifecycle candle_stick_collection@0.0.0~test:cover: Args: [ '-c',
+11 silly lifecycle   'istanbul cover -x *.test.js  _mocha -- -u exports -R spec tests' ]
+12 silly lifecycle candle_stick_collection@0.0.0~test:cover: Returned: code: 1  signal: null
+13 info lifecycle candle_stick_collection@0.0.0~test:cover: Failed to exec test:cover script
+14 verbose stack Error: candle_stick_collection@0.0.0 test:cover: `istanbul cover -x *.test.js  _mocha -- -u exports -R spec tests`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:232:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:821:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid candle_stick_collection@0.0.0
+16 verbose cwd /home/sergey/_programming/node/candleStickCollection/tests
+17 error Linux 3.14.27-100.fc19.x86_64
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "test:cover"
+19 error node v5.4.1
+20 error npm  v3.3.12
+21 error code ELIFECYCLE
+22 error candle_stick_collection@0.0.0 test:cover: `istanbul cover -x *.test.js  _mocha -- -u exports -R spec tests`
+22 error Exit status 1
+23 error Failed at the candle_stick_collection@0.0.0 test:cover script 'istanbul cover -x *.test.js  _mocha -- -u exports -R spec tests'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the candle_stick_collection package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     istanbul cover -x *.test.js  _mocha -- -u exports -R spec tests
+23 error You can get their info via:
+23 error     npm owner ls candle_stick_collection
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

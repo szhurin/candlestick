@@ -1,0 +1,29 @@
+{
+  "name": "candle_stick_collection",
+  "version": "0.0.0",
+  "description": "candlesticks classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "candlestick",
+    "trade"
+  ],
+  "devDependencies": {
+    "chai": "*"
+  },
+  "author": "sam",
+  "license": "MIT",
+  "config": {
+      "blanket": {
+        "pattern": [""]
+            }
+    },
+  "scripts":{
+    "test":"mocha tests",
+    "test:watch":"mocha tests -w",
+    "test:cover":"istanbul cover -x *.test.js  _mocha -- -u exports -R spec tests"
+  }
+
+}
